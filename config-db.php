@@ -10,7 +10,7 @@
     $username   = 'root';
     $password   = 'root';
     $dbname     = 'movies_db';
-    $port       = '3306';
+    $port       = '8889';
     $dsn        = "mysql:host=$host;dbname=$dbname;port=$port";
     $options    = array(
                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION

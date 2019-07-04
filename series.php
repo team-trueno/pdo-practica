@@ -1,5 +1,7 @@
 <?php
 
+require("pdo.php");
+
 function traerSeries(PDO $db) {
     $consulta = $db->prepare("SELECT * FROM series");
     //bind
